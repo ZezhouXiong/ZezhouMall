@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/zezhoumall-coupon" />
+    <file type="web" url="file://$PROJECT_DIR$/zezhoumall-order" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhou.zezhoumall/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-order/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/zezhou.zezhoumall/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>

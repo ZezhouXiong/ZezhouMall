@@ -3,5 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhou.zezhoumall/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhou.zezhoumall/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-coupon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-ware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zezhoumall-ware/src/main/resources" charset="UTF-8" />
   </component>
 </project>
