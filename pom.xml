@@ -15,6 +15,9 @@
         <module>zezhoumall-product</module>
         <module>zezhoumall-ware</module>
         <module>zezhoumall-order</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>zezhoumall-common</module>
     </modules>
 
 </project>
