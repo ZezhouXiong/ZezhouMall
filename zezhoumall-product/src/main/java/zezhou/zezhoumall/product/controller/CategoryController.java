@@ -1,6 +1,7 @@
 package zezhou.zezhoumall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -11,9 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import zezhou.zezhoumall.product.dao.ProductAttrValueDao;
 import zezhou.zezhoumall.product.entity.CategoryEntity;
-import zezhou.zezhoumall.product.service.CategoryService;
-import zezhou.common.utils.PageUtils;
 import zezhou.common.utils.R;
 
 
@@ -29,17 +29,16 @@ import zezhou.common.utils.R;
 @RequestMapping("product/category")
 public class CategoryController {
     @Autowired
-    private CategoryService categoryService;
+    private ProductAttrValueDao.CategoryService categoryService;
 
     /**
      * 列表
      */
-    @RequestMapping("/list")
-    //@RequiresPermissions("product:category:list")
+    @RequestMapping("/list/tree")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+        List<CategoryEntity> entities = categoryService.listWithTree();
 
-        return R.ok().put("page", page);
+        return R.ok().put("data", entities);
     }
 
 

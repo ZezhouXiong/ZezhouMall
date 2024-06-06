@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/zezhoumall-coupon" />
+    <file type="web" url="file://$PROJECT_DIR$/zezhoumall-gateway" />
     <file type="web" url="file://$PROJECT_DIR$/zezhoumall-order" />
   </component>
   <component name="MavenProjectsManager">
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/renren-generator/pom.xml" />
         <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
         <option value="$PROJECT_DIR$/zezhoumall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/zezhoumall-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

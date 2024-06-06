@@ -7,9 +7,8 @@
  */
 
 package zezhou.common.xss;
-
-import io.renren.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
+import zezhou.common.exception.RRException;
 
 /**
  * SQL过滤

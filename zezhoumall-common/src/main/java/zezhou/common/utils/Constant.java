@@ -8,9 +8,10 @@
 
 package zezhou.common.utils;
 
-import io.renren.common.validator.group.AliyunGroup;
-import io.renren.common.validator.group.QcloudGroup;
-import io.renren.common.validator.group.QiniuGroup;
+
+import zezhou.common.validator.group.AliyunGroup;
+import zezhou.common.validator.group.QcloudGroup;
+import zezhou.common.validator.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;
